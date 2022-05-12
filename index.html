@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html 
+class="no-js" lang="en">
+	<head>
+		 <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <!-- Fonts -->
+	    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Nubian Skin</title>	
+	</head>
+	<body>
+		<header>
+			<nav id="navbar" class="navigation-bar-1 container-fluid">
+				<div id="top-nav" class="row navigation-bar">
+					<div class="burger">
+							<img src="assets/img/hamburger-menu.png">
+					</div>
+					<div class="logo">
+						<img src="assets/img/logo.webp">
+					</div>
+					<form>
+						<input type="search" placeholder="You are looking for?" name="search-bar">
+					</form>
+					<div id="account-profile">
+						<!-- Search Icon -->
+						<div class="search mr-1">
+							<img src="assets/img/search-icon-mobile.svg">
+						</div>
+						<a id="like-icon" href="" class="mx-1"><img src="assets/img/favorite-menu.svg"></a>
+						<!--bag icon-->
+						<div class="bag-icon mx-1">
+							<img src="assets/img/cart-icon.svg">
+						</div>
+						<!-- account icon-->
+						<a id="account-icon" class="mx-1" href=""><img src="assets/img/account-icon.png"></a>
+					</div>
+				</div>
+				<!--This becomes the mobile menu -->
+				<div id="bottom-nav" class=" navigation-bar bottom-navigation">
+					<div class="sidebar-header py-4 row">
+						<p class="col-10">Shop By Department</p>
+						<div role="button" onclick="closeNav()" class="col-2 "><img src="assets/img/x-2.svg"></div>
+					</div>
+					<ul class="nav-links">
+						<li><a href="collection.html">Bras</a></li>					
+						<li><a href="collection-2.html">Panties</a></li>
+						<li><a href="collection.html">Pantyhose</a></li>
+						<li><a href="collection-2.html">Swimwear</a></li>
+						<li><a href="collection.html">Bodysuits</a></li>
+						<li><a href="collection-2.html">Menswear</a></li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Collections
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<a class="dropdown-item" href="collection-2.html">Naked Collection</a>
+					          	<a class="dropdown-item" href="collection.html">Cocoa by NS</a>
+					          	<a class="dropdown-item" href="collection-2.html">Cotton Collection</a>
+					        </div>
+						</li>
+					</ul>
+					<div id="accounts-mobile-menu" class="pt-4">
+						<div class="divider"></div>
+						<h3>Accounts</h3>
+						<p>Become a member</p>
+						<p>With more ways to unlock exciting perks, this is your all access pass to exclusive Nubians Skin rewards.</p>
+						<a href="#" class="my-3">Read more</a>
+						<div class="row py-4">
+				    		<div class="mx-2">
+					    		<a class="button-s" href="#">Join Us</a>
+					    	</div>
+					    	<div class="mx-2"> 
+					    		<a class="button-s" href="#">Sign In</a>
+					    	</div>				    	
+				    	</div> 
+					</div>
+					<ul id="currency-selector" class="currency">
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <img src="assets/img/usa-flag.svg" class="mr-1"><p class="d-inline mx-1">USA</p><img src="assets/img/selector.png" class="ml-1">
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<a class="dropdown-item" href="#">UK & Rest of World</a>
+						</li>
+					</ul>
+				</div>
+				<div id="search-side" class="mobile-search">
+					<div class="row">
+						<div  role="button" onclick="closeSearch()" class="ml-4 mr-4 "><img src="assets/img/back-button.svg"></div>
+						<form>
+							<input id="search" type="search" placeholder="You are looking for?" name="search-bar-mobile">
+						</form>
+
+					</div>
+					<div class="my-4 row">
+						<div class="suggestions-wrapper">
+							<ul class="">
+								<li class="">
+									<a href="">
+										<span class="">
+											<strong>Bras</strong>
+										</span>
+										<span class="counter">56</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											Naked
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">3</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											Naked Fuller-Bust
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">7</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											COCOA by NS Bralette
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">6</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="search.html" class="see-all-mobile">
+										See all "Bras"
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="alert alert-primary text-center alert-dismissible fade show" role="alert">
+				<strong>Free Shipping for items more than $50</strong>
+				<button type="button" class="close justify-content-end" data-dismiss="alert" aria-label="Close">
+				    <span aria-hidden="true"><img src="assets/img/x.svg"></span>
+				</button>
+			</div>
+			<section id = "main-banner" class="mb-4">
+				 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				    <ol class="carousel-indicators">
+				      <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+				      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+				    </ol>
+				    <div class="carousel-inner">
+				      <div class="carousel-item active">
+				        <img class="d-block w-100" src="assets/img/banner.png">
+				        <div class="banner-text d-md-block">
+					        <h1 class="display-4">SHOP THE BRAS</h1>
+							<p class="lead">Now up to G-cup</p>
+							<a href="#about" class="button text-center" id = "hero-button">Shop Collection</a>
+					    </div>
+				      </div>
+				      <div class="carousel-item">
+				        <img class="d-block w-100" src="assets/img/banner-2.png">
+				        <div class="carousel-caption banner-text vertical-center d-md-block">
+					        <h1 class="display-4">SHOP THE BRAS</h1>
+							<p class="lead">Now up to G-cup</p>
+							<a href="#about" class="button text-center" id = "hero-button">Shop Collection</a>
+					    </div>
+				      </div>
+				    </div>
+				</div>
+			</section>
+			<section id="collections" class="container my-4">
+				<div class="row">
+					<div class="col-12 col-md-4 my-4"><img id="collection-image-1" src="assets/img/cocoa-ns.png"><div class="collection"><a class="align-middle" href="#">COCOA by NS Collection</a></div></div>
+					<div class="col-12 col-md-4 my-4" ><img id="collection-image-2" src="assets/img/naked-collection.png"><div class="" id="middle-collection"><a class="align-middle" href="#">The Naked Collection</a></div></div>
+					<div class="col-12 col-md-4 my-4"><img id="collection-image-3" src="assets/img/hosiery.png"><div class="collection"><a class="align-middle" href="#">Hosiery</a></div></div>
+			</section>
+			<section id="merchandizing" class="container-fluid">
+				<div class="row">
+					<div  class="col-12 col-md-6 relative">
+						<div id="merch-1" class="merch mx-1">
+							<img src="assets/img/merch-1.png" alt="">
+              				<div class="content">
+								<h2 class="text-center">Better Nude</h2>
+								<a href="#about" class="button mx-auto">Explore</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 relative">
+						<div id="merch-2" class="merch mx-1">
+							<img src="assets/img/merch-2.png" alt="">
+              				<div class="content">
+								<h2 class="text-center">Must-Have Swim Wear</h2>
+								<a href="#about" class="button text-center">Shop Collection</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="trending py-4">
+				<div class="container">
+				      <div class="row">
+				        <div class="col-md-12">
+				          <div class="title text-center mb-4">
+				            <h1 class="my-4">Trending</h1>
+				          </div>
+				        </div>
+
+				        <div class="row">
+
+				          <div class="col-6 col-md-3">
+				            <div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-1.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="col-6 col-md-3">
+				            <div class="product-item">
+				              <div class="product-thumb">
+				              	<span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-2.jpg" alt="product-img">
+				                <span class="text-center thumb-sale">Sale</span>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Swim Wear</a></p>
+				                <h4><a href="product-single.html">Reversible Swimsuit</a></h4>
+				                <div>
+					                <p class="slash-price d-inline">$200</p>
+					                <p class="price d-inline">$150</p>
+				                </div>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="col-6 col-md-3">
+				            <div class="product-item">
+				              <div class="product-thumb">
+				              	<span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-3.jpg" alt="product-img">
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Panties</a></p>
+				                <h4><a href="product-single.html">G-String</a></h4>
+				                <p class="price">$230</p>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="col-6 col-md-3">
+				            <div class="product-item">
+				              <div class="product-thumb">
+				              	<span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-4.jpg" alt="product-img">
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Bras</a></p>
+				                <h4><a href="product-single.html">Naked Bra</a></h4>
+				                <p class="price">$200</p>
+				              </div>
+				            </div>
+				          </div> 
+				        </div>
+				      </div>
+				    </div>
+			</section>
+			<section id="welcome-blurb" class="container my-4">
+				<div class="row my-4">
+					<div class="col-md-12 my-4">
+				          <div class="title text-center my-4">
+				            <h1 class="my-4">Welcome to Nubian Skin</h1>
+				          </div>
+				        </div>
+					<div class="col-12 col-md-6"><img class="profile-image" src="assets/img/ade.png"></div>
+					<div class="col-12 col-md-6 mt-4">
+						<p class="lead mt-4">
+							I completely understand how frustrating it can be when you can’t find products in your own nude – that’s why I decided to create Nubian Skin, the lingerie and hosiery brand for women of colour. Thank you for coming to check us out and supporting our brand – I hope you find your perfect item! If you don’t, please don’t hesitate to reach out with suggestions, we’re always working on something new!
+						</p>
+						<p class="bold">Ade X</p>
+					</div>
+				</div>
+			</section>
+			<section id="news" class="container my-4">
+				<div class="row">
+					<div class="col-md-12 my-4">
+				        <div class="title text-center my-4">
+				            <h1 class="my-4">In The News</h1>
+				        </div>
+				    </div>
+				    <div class="col-6 col-md-3 mb-4">
+				    	<img class="my-2" src="assets/img/news-1.png">
+				    	<p class="mt-2">
+				    		What's In Nubian Skin's Shoe Collection? WOC Should Get Excited For This One
+				    	</p>
+				    	<a href="">Read Article</a>
+				    </div>
+				    <div class="col-6 col-md-3">
+				    	<img class="my-2" src="assets/img/news-2.png">
+				    	<p class="mt-2">
+				    		Finally! Nubian Skin to Launch Nude Lingerie for Brown Women
+				    	</p>
+				    	<a href="">Read Article</a>
+				    </div>
+				    <div class="col-6 col-md-3 mb-4">
+				    	<img class="my-2" src="assets/img/news-3.png">
+				    	<p class="mt-2">
+				    		What's In Nubian Skin's Shoe Collection? WOC Should Get Excited For This One
+				    	</p>
+				    	<a href="">Read Article</a>
+				    </div>
+				    <div class="col-6 col-md-3">
+				    	<img class="my-2" src="assets/img/news-4.png">
+				    	<p class="mt-2">
+				    		Finally! Nubian Skin to Launch Nude Lingerie for Brown Women
+				    	</p>
+				    	<a href="">Read Article</a>
+				    </div>
+				</div>
+			</section>
+		</main>
+		<footer class="page-footer">
+			<section class="call-to-action section">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-12 text-center py-4 my-4">
+			          <div class="title">
+			            <h2>Signup for our newsletter</h2>
+			            <p>Be the first to hear about our latest ranges, exclusive offers, news and events!</p>
+			          </div>
+			          <div class="col-12 col-lg-6 offset-lg-3">
+			            <div class="input-group subscription-form">
+			              <input type="text" class="form-control" placeholder="Email Address">
+			              <span class="input-group-btn">
+			                <button class="btn btn-main" type="button"><img src="assets/img/chevron.png"></button>
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </section>
+			  <!-- Footer Links -->
+			  <div class="container text-center text-md-left pt-4 my-4">
+
+			    <!-- Grid row -->
+			    <div class="row">
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mt-md-0 mt-3">
+
+			        <!-- Content -->
+			        <ul class="list-unstyled text-center">
+			        	<li>
+			            	<a href="#!">Latest Collection</a>
+			          	</li>
+				        <li>
+				            <a href="#!">Size Guide</a>
+				        </li>
+				        <li>
+				            <a href="#!">Delivery & Returns</a>
+				        </li>
+				        <li>
+				            <a href="#!">Skin-tone Guide</a>
+				        </li>
+			        </ul>
+
+			      </div>
+			      <!-- Grid column -->
+
+			      <hr class="clearfix w-100 d-md-none pb-3">
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mb-md-0 mb-3 text-center">
+
+			        <!-- Links -->
+			        <ul class="list-unstyled">
+				        <li>
+				            <a href="#!">Contact</a>
+				        </li>
+				        <li>
+				            <a href="#!">Your Nearest Store</a>
+				        </li>
+				        <li>
+				            <a href="#!">Stockist</a>
+				        </li>
+			        </ul>
+
+			      </div>
+			      <!-- Grid column -->
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mb-md-0 mb-3 text-center">
+
+			        <!-- Links -->
+			        <ul class="list-unstyled">
+			          <li>
+			            <a href="#">Gift Cards</a>
+			          </li>
+			          <li>
+			            <a href="#">Press</a>
+			          </li>
+			          <li>
+			            <a href="#">FAQ</a>
+			          </li>
+			        </ul>
+			      </div>
+			      <!-- Grid column -->
+
+			    </div>
+			    <!-- Grid row -->
+
+			  </div>
+			  <div class="container-fluid">
+				  <div class="row"> 
+				  	<div class="col-md-4 text-center">
+				  		<p>© 2020 Nubian Skin. All Rights Reserved.</p>
+				  	</div>
+				  	<div class="col-md-4 text-center"><img src="assets/img/payment-logos.png"></div>
+				  	<div class="col-md-4 text-center lato">
+				  		<ul>
+				  			<li class="d-inline"><a href="#">Terms & Conditions</a></li>
+				  			<li class="d-inline" id = "middle-link"><a href="#">Privacy Policy</a></li>
+				  			<li class="d-inline"><a href="#">Cookies</a></li>
+				  		</ul>
+				  	</div>
+				  </div>
+			  </div>
+		</footer>
+		<!--Bag/Cart -->
+		<div class="modal-dark"></div>
+		<div class="bag-slide">
+			<div class="row">
+				<h2 class="offset-1 col-9">Bag</h2><div role="button" onclick="closeBag()" class="col-1 "><img src="assets/img/x-2.svg"></div>
+			</div>
+			<form class="text-center my-4">
+				<input id="search" class="bag-search" type="search" placeholder="You are looking for?" name="search-bar-mobile">
+			</form>
+			<div class="row ship-details-cart mx-auto">
+				<div class="col-2 mt-2"><img src="assets/img/ship-icon.svg"></div>
+				<div class="col-7">
+					<div class="row"><p class="col-12 mt-2">Deliver to Layor</p><p class="col-12 cart-address mb-2">Houston 989383</p></div>
+				</div>
+				<div id = "ship-link-container" class="col-3"><a class ="bag-ship-link" href="#">Change</a></div>
+			</div>
+			<div class="text-center  mt-10"><img src="assets/img/cart-bag.svg"></div>
+			<h3 class="text-center  my-5">Your Bag is currently empty</h3>
+			<p class="lead text-center  my-5">Check if you have any products in your wishlist and grab them before they are gone or search for a product</p>
+			<div class="text-center  mt-4 mb-10"><a href="" class="button-on-white">View my Wishlist</a></div>
+			<div class="text-center mt-4"><a href="" class="bag-button">Proceed to checkout</a></div>
+		</div>
+				<!-- End of Bag/Cart-->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>

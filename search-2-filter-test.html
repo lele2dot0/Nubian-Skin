@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html 
+class="no-js" lang="en">
+	<head>
+		 <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <!-- Fonts -->
+	    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Nubian Skin</title>	
+	</head>
+	<body>
+		<header>
+			<nav id="navbar" class="navigation-bar-1 container-fluid">
+				<div id="top-nav" class="row navigation-bar">
+					<div class="burger">
+							<img src="assets/img/hamburger-menu.png">
+					</div>
+					<div class="logo">
+						<img src="assets/img/logo.webp">
+					</div>
+					<form>
+						<input type="search" placeholder="You are looking for?" name="search-bar">
+					</form>
+					<div id="account-profile">
+						<!-- Search Icon -->
+						<div class="search mr-1">
+							<img src="assets/img/search-icon-mobile.svg">
+						</div>
+						<a id="like-icon" href="" class="mx-1"><img src="assets/img/favorite-menu.svg"></a>
+						<!--bag icon-->
+						<div class="bag-icon mx-1">
+							<img src="assets/img/cart-icon.svg">
+						</div>
+						<!-- account icon-->
+						<a id="account-icon" class="mx-1" href=""><img src="assets/img/account-icon.png"></a>
+					</div>
+				</div>
+				<!--This becomes the mobile menu -->
+				<div id="bottom-nav" class=" navigation-bar bottom-navigation">
+					<div class="sidebar-header py-4 row">
+						<p class="col-10">Shop By Department</p>
+						<div role="button" onclick="closeNav()" class="col-2 "><img src="assets/img/x-2.svg"></div>
+					</div>
+					<ul class="nav-links">
+						<li><a href="collection.html">Bras</a></li>					
+						<li><a href="collection-2.html">Panties</a></li>
+						<li><a href="collection.html">Pantyhose</a></li>
+						<li><a href="collection-2.html">Swimwear</a></li>
+						<li><a href="collection.html">Bodysuits</a></li>
+						<li><a href="collection-2.html">Menswear</a></li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Collections
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<a class="dropdown-item" href="collection-2.html">Naked Collection</a>
+					          	<a class="dropdown-item" href="collection.html">Cocoa by NS</a>
+					          	<a class="dropdown-item" href="collection-2.html">Cotton Collection</a>
+					        </div>
+						</li>
+					</ul>
+					<div id="accounts-mobile-menu" class="pt-4">
+						<div class="divider"></div>
+						<h3>Accounts</h3>
+						<p>Become a member</p>
+						<p>With more ways to unlock exciting perks, this is your all access pass to exclusive Nubians Skin rewards.</p>
+						<a href="#" class="my-3">Read more</a>
+						<div class="row py-4">
+				    		<div class="mx-2">
+					    		<a class="button-s" href="#">Join Us</a>
+					    	</div>
+					    	<div class="mx-2"> 
+					    		<a class="button-s" href="#">Sign In</a>
+					    	</div>				    	
+				    	</div> 
+					</div>
+					<ul id="currency-selector" class="currency">
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <img src="assets/img/usa-flag.svg" class="mr-1"><p class="d-inline mx-1">USA</p><img src="assets/img/selector.png" class="ml-1">
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<a class="dropdown-item" href="#">UK & Rest of World</a>
+						</li>
+					</ul>
+				</div>
+				<!--End Mobile Menu -->
+				<!--mobile search menu-->
+				<div id="search-side" class="mobile-search">
+					<div class="row">
+						<div  role="button" onclick="closeSearch()" class="ml-4 mr-4 "><img src="assets/img/back-button.svg"></div>
+						<form>
+							<input id="search" type="search" placeholder="You are looking for?" name="search-bar-mobile">
+						</form>
+
+					</div>
+					<div class="my-4 row">
+						<div class="suggestions-wrapper">
+							<ul class="">
+								<li class="">
+									<a href="">
+										<span class="">
+											<strong>Bras</strong>
+										</span>
+										<span class="counter">56</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											Naked
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">3</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											Naked Fuller-Bust
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">7</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											COCOA by NS Bralette
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">6</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="search.html" class="see-all-mobile">
+										See all "Bras"
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--End of mobile search -->
+			</nav>
+		</header>
+		<main>
+			<div class="alert alert-primary text-center alert-dismissible fade show pb-4 mb-4" role="alert">
+				<strong>Free Shipping for items more than $50</strong>
+				<button type="button" class="close justify-content-end" data-dismiss="alert" aria-label="Close">
+				    <span aria-hidden="true"><img src="assets/img/x.svg"></span>
+				</button>
+			</div>
+			<section id="collection-header" class="container pt-4 mt-4">
+				<div class="row">
+					<div class="col-8">
+						<p class="lead lato grey d-inline">Search Results for: </p><h3 class="d-inline"> Bras</h3>
+						<p class="lead lato grey">13 items found</p> 
+					</div>
+					<div class="offset-1 col-3 mt-3"><span class="filter">Filter</span></div>
+				</div>
+			</section>
+			<!--Desktop Filter -->
+			<section id="collection-filter" class="collection-filter navbar navbar-expand-lg container-fluid mb-4">
+				<div class="container ">
+					<div class="" id="filter-hamburger">
+						<ul class="nav nav-pills d-flex justify-content-between">
+						  <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Gender</a>
+						    <div class="dropdown-menu">
+						      	<div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    Women
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">1</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    Men
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">16</p>
+								</div>
+						    </div>
+						  </li>
+						  <div class="vl"></div>
+						  <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Item Category</a>
+						    <div class="dropdown-menu">
+						      	<div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    Bras
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    Panties
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck3">
+								    Pantyhose
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Swimwear
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">0</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Bodysuits
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Menswear
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+						    </div>
+						  </li>
+						  <div class="vl"></div>
+						  <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Size</a>
+						    <div class="dropdown-menu">
+						      <div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    X-Small
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    	Small
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck3">
+								    	Medium
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    	Large
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">0</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    	X-Large
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    	XX-Large
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+						    </div>
+						  </li>
+						  <div class="vl"></div>
+						  <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Color</a>
+						    <div class="dropdown-menu">
+						      <div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<span class="mx-2"><img src="assets/img/cafe.png"></span>
+									<label class="form-check-label" for="defaultCheck1">
+									    Cafe Au Lait
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<span class="mx-2"><img src="assets/img/caramel.png"></span>
+								  	<label class="form-check-label" for="defaultCheck2">
+								    Caramel
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<span class="mx-2"><img src="assets/img/cinnamon.png"></span>
+								  	<label class="form-check-label" for="defaultCheck3">
+								    Cinnamon
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<span class="mx-2"><img src="assets/img/berry.png"></span>
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Berry
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+						    </div>
+						  </li>
+						  <div class="vl"></div>
+						  <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Price</a>
+						    <div class="dropdown-menu">
+						        <div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    Less than $50
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    $50-$300
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck3">
+								    $300-$550
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    $550 or more
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+						    </div>
+						  </li>
+						  <div class="vl"></div>
+						  <li class="nav-item dropdown">
+						    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sort By</a>
+						    <div class="dropdown-menu">
+						      <a class="dropdown-item" href="#">Newest</a>
+						      <a class="dropdown-item" href="#">Price (high - low)</a>
+						      <a class="dropdown-item" href="#">Price (low - high</a>
+						      <a class="dropdown-item" href="#">Top Sellers</a>
+						    </div>
+						  </li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--Mobile filter -->
+			<section id="mobile-collection-filter" class="mobile-filter">
+				<div id="mobile-filter-header" class="row py-4 px-2">
+					<h3 class="col-10">Filter By</h3>
+					<div class="col-2" role="button" onclick="closeFilter()" class="col-2 ">
+						<img src="assets/img/x-2.svg">
+					</div>
+				</div>
+				<div id="filter-accordion">
+					<div class="card invisi-accordion">
+					    <div class="card-header no-bg" id="description">
+					      <h5 class="mb-0">
+					        <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					          Gender
+					        </button><span class="float-right"><button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="assets/img/selector.png"></button></span>
+					      </h5>
+					    </div>
+
+					    <div id="collapseOne" class="collapse show" aria-labelledby="description" data-parent="#filter-accordion">
+					      <div class="card-body">
+					        <div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    Women
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">1</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    Men
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">16</p>
+								</div>
+					      </div>
+					    </div>
+					</div>
+					<div class="card invisi-accordion-middle">
+					    <div class="card-header no-bg" id="composition">
+					      <h5 class="mb-0">
+					        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          Item Category
+					        </button><span class="float-right"><button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><img src="assets/img/selector.png"></button></span>
+					      </h5>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="composition" data-parent="#filter-accordion">
+					      <div class="card-body">
+					        <div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    Bras
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    Panties
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck3">
+								    Pantyhose
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Swimwear
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">0</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Bodysuits
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Menswear
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+					      </div>
+					    </div>
+					</div>
+					<div class="card invisi-accordion">
+					    <div class="card-header no-bg" id="specification">
+					      <h5 class="mb-0">
+					        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Color
+					        </button><span class="float-right"><button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="assets/img/selector.png"></button></span>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="specification" data-parent="#filter-accordion">
+					      <div class="card-body">
+					       	<div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<span class="mx-2"><img src="assets/img/cafe.png"></span>
+									<label class="form-check-label" for="defaultCheck1">
+									    Cafe Au Lait
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<span class="mx-2"><img src="assets/img/caramel.png"></span>
+								  	<label class="form-check-label" for="defaultCheck2">
+								    Caramel
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<span class="mx-2"><img src="assets/img/cinnamon.png"></span>
+								  	<label class="form-check-label" for="defaultCheck3">
+								    Cinnamon
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<span class="mx-2"><img src="assets/img/berry.png"></span>
+								  	<label class="form-check-label" for="defaultCheck4">
+								    Berry
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+					      </div>
+					    </div>
+					</div>
+					<div class="card invisi-accordion">
+					    <div class="card-header no-bg" id="specification">
+					      <h5 class="mb-0">
+					        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+					          Size
+					        </button><span class="float-right"><button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><img src="assets/img/selector.png"></button></span>
+					      </h5>
+					    </div>
+					    <div id="collapseFour" class="collapse" aria-labelledby="specification" data-parent="#filter-accordion">
+					      <div class="card-body">
+					      	<div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    X-Small
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    	Small
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck3">
+								    	Medium
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    	Large
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">0</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    	X-Large
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    	XX-Large
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+					      </div>
+					    </div>
+					</div>
+					<div class="card invisi-accordion">
+					    <div class="card-header no-bg" id="specification">
+					      <h5 class="mb-0">
+					        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+					          Price
+					        </button><span class="float-right"><button class="btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><img src="assets/img/selector.png"></button></span>
+					      </h5>
+					    </div>
+					    <div id="collapseFive" class="collapse" aria-labelledby="specification" data-parent="#filter-accordion">
+					      <div class="card-body">
+					        <div class="form-check mb-3">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									    Less than $50
+									</label>
+									<p class="d-inline filter-stock-count text-right grey lato">3</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck2">
+								    $50-$300
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">7</p>
+								</div>
+								<div class="form-check mb-3">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck3">
+								    $300-$550
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+								<div class="form-check">
+								  	<input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+								  	<label class="form-check-label" for="defaultCheck4">
+								    $550 or more
+								  	</label>
+								  	<p class="d-inline filter-stock-count text-right grey lato">6</p>
+								</div>
+					      </div>
+					    </div>
+					</div>
+				</div>
+				</div>
+			</section>
+			<section id="catalog" class="container pt-4 mb-4">
+				<div class="row">
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-1.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-2.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-3.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-4.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-5.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-6.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-7.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-8.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-9.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-10.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-11.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+					<div class="col-6 col-md-3 my-2">
+						<div class="product-item">
+				              <div class="product-thumb">
+				                <span class="bage"><a href=""><img src="assets/img/heart-button.png"></a></span>
+				                <img class="img-responsive" src="assets/img/product-12.jpg" alt="product-img">
+				                <div class="preview-meta">
+				                  <ul>
+				                    <li>
+				                      <a href=""><i class="fa fa-shopping-cart"></i></a>
+				                    </li>
+				                  </ul>
+				                </div>
+				              </div>
+				              <div class="product-content">
+				              	<p><a class="trending-category" href="product-category.html">Menswear</a></p>
+				                <h4><a href="product-single.html">COCOA by NS Men's Boxer Brief</a></h4>
+				                <p class="price">$200</p>
+				            </div>
+				        </div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="page-footer">
+			<section class="call-to-action section">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-12 text-center py-4 my-4">
+			          <div class="title">
+			            <h2>Signup for our newsletter</h2>
+			            <p>Be the first to hear about our latest ranges, exclusive offers, news and events!</p>
+			          </div>
+			          <div class="col-12 col-lg-6 offset-lg-3">
+			            <div class="input-group subscription-form">
+			              <input type="text" class="form-control" placeholder="Email Address">
+			              <span class="input-group-btn">
+			                <button class="btn btn-main" type="button"><img src="assets/img/chevron.png"></button>
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </section>
+			  <!-- Footer Links -->
+			  <div class="container text-center text-md-left pt-4 my-4">
+
+			    <!-- Grid row -->
+			    <div class="row">
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mt-md-0 mt-3">
+
+			        <!-- Content -->
+			        <ul class="list-unstyled text-center">
+			        	<li>
+			            	<a href="#!">Latest Collection</a>
+			          	</li>
+				        <li>
+				            <a href="#!">Size Guide</a>
+				        </li>
+				        <li>
+				            <a href="#!">Delivery & Returns</a>
+				        </li>
+				        <li>
+				            <a href="#!">Skin-tone Guide</a>
+				        </li>
+			        </ul>
+
+			      </div>
+			      <!-- Grid column -->
+
+			      <hr class="clearfix w-100 d-md-none pb-3">
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mb-md-0 mb-3 text-center">
+
+			        <!-- Links -->
+			        <ul class="list-unstyled">
+				        <li>
+				            <a href="#!">Contact</a>
+				        </li>
+				        <li>
+				            <a href="#!">Your Nearest Store</a>
+				        </li>
+				        <li>
+				            <a href="#!">Stockist</a>
+				        </li>
+			        </ul>
+
+			      </div>
+			      <!-- Grid column -->
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mb-md-0 mb-3 text-center">
+
+			        <!-- Links -->
+			        <ul class="list-unstyled">
+			          <li>
+			            <a href="#">Gift Cards</a>
+			          </li>
+			          <li>
+			            <a href="#">Press</a>
+			          </li>
+			          <li>
+			            <a href="#">FAQ</a>
+			          </li>
+			        </ul>
+			      </div>
+			      <!-- Grid column -->
+
+			    </div>
+			    <!-- Grid row -->
+
+			  </div>
+			  <div class="container-fluid">
+				  <div class="row"> 
+				  	<div class="col-md-4 text-center">
+				  		<p>© 2020 Nubian Skin. All Rights Reserved.</p>
+				  	</div>
+				  	<div class="col-md-4 text-center"><img src="assets/img/payment-logos.png"></div>
+				  	<div class="col-md-4 text-center lato">
+				  		<ul>
+				  			<li class="d-inline"><a href="#">Terms & Conditions</a></li>
+				  			<li class="d-inline" id = "middle-link"><a href="#">Privacy Policy</a></li>
+				  			<li class="d-inline"><a href="#">Cookies</a></li>
+				  		</ul>
+				  	</div>
+				  </div>
+			  </div>
+		</footer>
+		<!--Bag/Cart -->
+		<div class="modal-dark"></div>
+		<div class="bag-slide">
+			<div class="row">
+				<h2 class="offset-1 col-9">Bag</h2><div role="button" onclick="closeBag()" class="col-1 "><img src="assets/img/x-2.svg"></div>
+			</div>
+			<form class="text-center my-4">
+				<input id="search" class="bag-search" type="search" placeholder="You are looking for?" name="search-bar-mobile">
+			</form>
+			<div class="row ship-details-cart mx-auto">
+				<div class="col-2 mt-2"><img src="assets/img/ship-icon.svg"></div>
+				<div class="col-7">
+					<div class="row"><p class="col-12 mt-2">Deliver to Layor</p><p class="col-12 cart-address mb-2">Houston 989383</p></div>
+				</div>
+				<div id = "ship-link-container" class="col-3"><a class ="bag-ship-link" href="#">Change</a></div>
+			</div>
+			<div class="text-center  mt-10"><img src="assets/img/cart-bag.svg"></div>
+			<h3 class="text-center  my-5">Your Bag is currently empty</h3>
+			<p class="lead text-center  my-5">Check if you have any products in your wishlist and grab them before they are gone or search for a product</p>
+			<div class="text-center  mt-4 mb-10"><a href="" class="button-on-white">View my Wishlist</a></div>
+			<div class="text-center mt-4"><a href="" class="bag-button">Proceed to checkout</a></div>
+		</div>
+				<!-- End of Bag/Cart-->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>

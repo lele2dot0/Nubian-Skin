@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html 
+class="no-js" lang="en">
+	<head>
+		 <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <!-- Fonts -->
+	    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Nubian Skin</title>	
+	</head>
+	<body>
+		<header>
+			<nav id="navbar" class="navigation-bar-1 container-fluid">
+				<div id="top-nav" class="row navigation-bar">
+					<div class="burger">
+							<img src="assets/img/hamburger-menu.png">
+					</div>
+					<div class="logo">
+						<img src="assets/img/logo.webp">
+					</div>
+					<form>
+						<input type="search" placeholder="You are looking for?" name="search-bar">
+					</form>
+					<div id="account-profile">
+						<!-- Search Icon -->
+						<div class="search mr-1">
+							<img src="assets/img/search-icon-mobile.svg">
+						</div>
+						<a id="like-icon" href="" class="mx-1"><img src="assets/img/favorite-menu.svg"></a>
+						<!--bag icon-->
+						<div class="bag-icon mx-1">
+							<img src="assets/img/cart-icon.svg">
+						</div>
+						<!-- account icon-->
+						<a id="account-icon" class="mx-1" href=""><img src="assets/img/account-icon.png"></a>
+					</div>
+				</div>
+				<!--This becomes the mobile menu -->
+				<div id="bottom-nav" class=" navigation-bar bottom-navigation">
+					<div class="sidebar-header py-4 row">
+						<p class="col-10">Shop By Department</p>
+						<div role="button" onclick="closeNav()" class="col-2 "><img src="assets/img/x-2.svg"></div>
+					</div>
+					<ul class="nav-links">
+						<li><a href="collection.html">Bras</a></li>					
+						<li><a href="collection-2.html">Panties</a></li>
+						<li><a href="collection.html">Pantyhose</a></li>
+						<li><a href="collection-2.html">Swimwear</a></li>
+						<li><a href="collection.html">Bodysuits</a></li>
+						<li><a href="collection-2.html">Menswear</a></li>
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Collections
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<a class="dropdown-item" href="collection-2.html">Naked Collection</a>
+					          	<a class="dropdown-item" href="collection.html">Cocoa by NS</a>
+					          	<a class="dropdown-item" href="collection-2.html">Cotton Collection</a>
+					        </div>
+						</li>
+					</ul>
+					<div id="accounts-mobile-menu" class="pt-4">
+						<div class="divider"></div>
+						<h3>Accounts</h3>
+						<p>Become a member</p>
+						<p>With more ways to unlock exciting perks, this is your all access pass to exclusive Nubians Skin rewards.</p>
+						<a href="#" class="my-3">Read more</a>
+						<div class="row py-4">
+				    		<div class="mx-2">
+					    		<a class="button-s" href="#">Join Us</a>
+					    	</div>
+					    	<div class="mx-2"> 
+					    		<a class="button-s" href="#">Sign In</a>
+					    	</div>				    	
+				    	</div> 
+					</div>
+					<ul id="currency-selector" class="currency">
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <img src="assets/img/usa-flag.svg" class="mr-1"><p class="d-inline mx-1">USA</p><img src="assets/img/selector.png" class="ml-1">
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<a class="dropdown-item" href="#">UK & Rest of World</a>
+						</li>
+					</ul>
+				</div>
+				<!--End Mobile Menu -->
+				<!--mobile search menu-->
+				<div id="search-side" class="mobile-search">
+					<div class="row">
+						<div  role="button" onclick="closeSearch()" class="ml-4 mr-4 "><img src="assets/img/back-button.svg"></div>
+						<form>
+							<input id="search" type="search" placeholder="You are looking for?" name="search-bar-mobile">
+						</form>
+
+					</div>
+					<div class="my-4 row">
+						<div class="suggestions-wrapper">
+							<ul class="">
+								<li class="">
+									<a href="">
+										<span class="">
+											<strong>Bras</strong>
+										</span>
+										<span class="counter">56</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											Naked
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">3</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											Naked Fuller-Bust
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">7</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="">
+										<span class="">
+											COCOA by NS Bralette
+											<strong>Bra</strong>
+										</span>
+										<span class="counter">6</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="search.html" class="see-all-mobile">
+										See all "Bras"
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--End of mobile search -->
+			</nav>
+		</header>
+		<main>
+			<div class="alert alert-primary text-center alert-dismissible fade show pb-4 mb-4" role="alert">
+				<strong>Free Shipping for items more than $50</strong>
+				<button type="button" class="close justify-content-end" data-dismiss="alert" aria-label="Close">
+				    <span aria-hidden="true"><img src="assets/img/x.svg"></span>
+				</button>
+			</div>
+			<section id="checkout-header" class="container-sp pt-4 mt-4">
+				<div class="row">
+					<div class="col-8">
+						<h1 class="d-inline">Payment</h3>
+					</div>
+				</div>
+			</section>
+			<div class="h-divider"></div>
+			<section id="shipping-login" class="container-sp">
+				<div class="row">
+					<div id="login-form" class="col-12 col-md-8">
+						<div class="row">
+							<h3 class="col-12">Order Summary</h3>
+							<div class="col-12">
+								<div class="row order-detail">
+									<p class="col-10">2 items</p><strong><p class="col-2">$130</p></strong>
+									<p class="col-3">Delivery</p><strong><p class="grey col-9">Calculated at the point of payment</p></strong>
+									<p class="col-10">TAX</p><strong><p class="col-2">$13</p></strong>
+									<p class="col-10"><strong>Total</strong></p><strong><p class="col-2">$143</p></strong>
+								</div>
+							</div>
+						</div>
+						<div class="guest-mode row">
+							<div id="accordion2">
+								<div class="card invisi-accordion">
+								    <div class="card-header no-bg" id="description">
+								      <h5 class="mb-0">
+								        <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								          Credit/Debit Card
+								        </button><span class="float-right"><button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="assets/img/selector.png"></button></span>
+								      </h5>
+								    </div>
+
+								    <div id="collapseOne" class="collapse show" aria-labelledby="description" data-parent="#accordion2">
+								      <div class="card-body">
+								       <form>
+								       		<div class="row">
+								       			<div class="col-12">
+								       				<input type="number" name="credit-card" placeholder="Card Number" required>
+								       			</div>
+								       			<div class="col-12">
+								       				<input type="text" name="card-name" placeholder="Name on Card" required>
+								       			</div>
+								       			<div class="col-12 col-md-6">
+								       				<input type="month" name="expiry-date" required>
+								       			</div>
+								       			<div class="col-11 col-md-5">
+								       				<input type="number" name="cvv" placeholder="CVV" required>
+								       			</div>
+								       			<div class="col-1 l-50p"><img src="assets/img/question.svg"></div>
+								       		</div>
+								       </form>
+								      </div>
+								    </div>
+								</div>
+								<div class="card invisi-accordion-middle">
+								    <div class="card-header no-bg" id="composition">
+								      <h5 class="mb-0">
+								        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								          Others
+								        </button><span class="float-right"><button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><img src="assets/img/selector.png"></button></span>
+								      </h5>
+								    </div>
+								    <div id="collapseTwo" class="collapse" aria-labelledby="composition" data-parent="#accordion2">
+								      <div class="card-body">
+								        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								      </div>
+								    </div>
+								</div>
+								<div class="card invisi-accordion2">
+								    <div class="card-header no-bg" id="specification">
+								      <h5 class="mb-0">
+								        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								          Gift Cards
+								        </button><span class="float-right"><button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="assets/img/selector.png"></button></span>
+								      </h5>
+								    </div>
+								    <div id="collapseThree" class="collapse" aria-labelledby="specification" data-parent="#accordion2">
+								      <div class="card-body">
+								        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								      </div>
+								    </div>
+								</div>
+							</div>
+							<div class="col-12 mt-4">
+									<input class="nubian-button" type="submit" name="order" value="Place Order">
+							</div>
+						</div>
+					</div>
+					<div id="bag-items" class="col-12 col-md-4">
+						<h2>Bag (3 Items)</h2>
+						<div class="row checkout-bag my-4">
+							<div class = "col-5"><img src="assets/img/checkout-1.png"></div>
+							<div class = "col-5">
+								<h5>REVERSIBLE TRIANGLE BIKINI TOP</h5>
+								<h6 class="d-inline">Color:</h6><p class="d-inline">  Cafe Au Lait</p><div></div>
+								<h6 class="d-inline">Size:</h6><p class="d-inline">  M</p>
+								<form>
+									<div class="row">
+										<h6 class="col-4 col-sm-5 col-md-4">QTY: </h6>
+										<input class="col-4 col-sm-7 col-md-4" type="number" id="quantity" name="quantity" min="1" max="5">
+										<a class="col-4 col-sm-12 col-md-4" href="#"> Remove</a>
+									</div>
+								</form>
+							</div>
+							<div class="col-2">
+								<p>$67</p>
+							</div>
+						</div>
+						<div class="row checkout-bag my-4">
+							<div class = "col-5"><img src="assets/img/checkout-2.png"></div>
+							<div class = "col-5">
+								<h5>REVERSIBLE TRIANGLE BIKINI TOP</h5>
+								<h6 class="d-inline">Color:</h6><p class="d-inline">  Cafe Au Lait</p><div></div>
+								<h6 class="d-inline">Size:</h6><p class="d-inline">  M</p>
+								<form>
+									<div class="row">
+										<h6 class="col-4">QTY: </h6>
+										<input class="col-4" type="number" id="quantity" name="quantity" min="1" max="5">
+										<a class="col-4" href="#"> Remove</a>
+									</div>
+								</form>
+								
+							</div>
+							<div class="col-2">
+								<p>$67</p>
+							</div>
+						</div>
+						<div class="row">
+							<h3 class="col-12">Shipping Method</h3>
+							<form class="col-12">
+								<div class="row">
+									<label class="radio col-10">
+									  <span class="radio__input">
+									    <input type="radio" name="delivery">
+									    <span class="radio__control"></span>
+									  </span>
+									  <span class="radio__label">  Standard Delivery</span>
+									</label>
+									<p class="col-2"> $12</p>
+									<p class="grey col-12">(Up to 5 working days)</p>
+								</div>
+								<div class="row">
+									<label class="radio col-10">
+									  <span class="radio__input">
+									    <input type="radio" name="delivery">
+									    <span class="radio__control"></span>
+									  </span>
+									  <span class="radio__label">  Express Delivery</span>
+									</label>
+									<p class="col-2"> $15</p>
+									<p class="grey col-12">(Up to 2 working days)</p>
+								</div>
+								<div class="row">
+									<label class="radio col-10">
+									  <span class="radio__input">
+									    <input type="radio" name="delivery">
+									    <span class="radio__control"></span>
+									  </span>
+									  <span class="radio__label">  Next Day Delivery</span>
+									</label>
+									<p class="col-2"> $20</p>
+									<p class="grey col-12">(Up to 1 working days)</p>
+								</div>
+							</form>	
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="page-footer">
+			<section class="call-to-action section">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-12 text-center py-4 my-4">
+			          <div class="title">
+			            <h2>Signup for our newsletter</h2>
+			            <p>Be the first to hear about our latest ranges, exclusive offers, news and events!</p>
+			          </div>
+			          <div class="col-12 col-lg-6 offset-lg-3">
+			            <div class="input-group subscription-form">
+			              <input type="text" class="form-control" placeholder="Email Address">
+			              <span class="input-group-btn">
+			                <button class="btn btn-main" type="button"><img src="assets/img/chevron.png"></button>
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </section>
+			  <!-- Footer Links -->
+			  <div class="container text-center text-md-left pt-4 my-4">
+
+			    <!-- Grid row -->
+			    <div class="row">
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mt-md-0 mt-3">
+
+			        <!-- Content -->
+			        <ul class="list-unstyled text-center">
+			        	<li>
+			            	<a href="#!">Latest Collection</a>
+			          	</li>
+				        <li>
+				            <a href="#!">Size Guide</a>
+				        </li>
+				        <li>
+				            <a href="#!">Delivery & Returns</a>
+				        </li>
+				        <li>
+				            <a href="#!">Skin-tone Guide</a>
+				        </li>
+			        </ul>
+
+			      </div>
+			      <!-- Grid column -->
+
+			      <hr class="clearfix w-100 d-md-none pb-3">
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mb-md-0 mb-3 text-center">
+
+			        <!-- Links -->
+			        <ul class="list-unstyled">
+				        <li>
+				            <a href="#!">Contact</a>
+				        </li>
+				        <li>
+				            <a href="#!">Your Nearest Store</a>
+				        </li>
+				        <li>
+				            <a href="#!">Stockist</a>
+				        </li>
+			        </ul>
+
+			      </div>
+			      <!-- Grid column -->
+
+			      <!-- Grid column -->
+			      <div class="col-md-4 mb-md-0 mb-3 text-center">
+
+			        <!-- Links -->
+			        <ul class="list-unstyled">
+			          <li>
+			            <a href="#">Gift Cards</a>
+			          </li>
+			          <li>
+			            <a href="#">Press</a>
+			          </li>
+			          <li>
+			            <a href="#">FAQ</a>
+			          </li>
+			        </ul>
+			      </div>
+			      <!-- Grid column -->
+
+			    </div>
+			    <!-- Grid row -->
+
+			  </div>
+			  <div class="container-fluid">
+				  <div class="row"> 
+				  	<div class="col-md-4 text-center">
+				  		<p>© 2020 Nubian Skin. All Rights Reserved.</p>
+				  	</div>
+				  	<div class="col-md-4 text-center"><img src="assets/img/payment-logos.png"></div>
+				  	<div class="col-md-4 text-center lato">
+				  		<ul>
+				  			<li class="d-inline"><a href="#">Terms & Conditions</a></li>
+				  			<li class="d-inline" id = "middle-link"><a href="#">Privacy Policy</a></li>
+				  			<li class="d-inline"><a href="#">Cookies</a></li>
+				  		</ul>
+				  	</div>
+				  </div>
+			  </div>
+		</footer>
+		<!--Bag/Cart -->
+		<div class="modal-dark"></div>
+		<div class="bag-slide">
+			<div class="row">
+				<h2 class="offset-1 col-9">Bag</h2><div role="button" onclick="closeBag()" class="col-1 "><img src="assets/img/x-2.svg"></div>
+			</div>
+			<form class="text-center my-4">
+				<input id="search" class="bag-search" type="search" placeholder="You are looking for?" name="search-bar-mobile">
+			</form>
+			<div class="row ship-details-cart mx-auto">
+				<div class="col-2 mt-2"><img src="assets/img/ship-icon.svg"></div>
+				<div class="col-7">
+					<div class="row"><p class="col-12 mt-2">Deliver to Layor</p><p class="col-12 cart-address mb-2">Houston 989383</p></div>
+				</div>
+				<div id = "ship-link-container" class="col-3"><a class ="bag-ship-link" href="#">Change</a></div>
+			</div>
+			<div class="text-center  mt-10"><img src="assets/img/cart-bag.svg"></div>
+			<h3 class="text-center  my-5">Your Bag is currently empty</h3>
+			<p class="lead text-center  my-5">Check if you have any products in your wishlist and grab them before they are gone or search for a product</p>
+			<div class="text-center  mt-4 mb-10"><a href="" class="button-on-white">View my Wishlist</a></div>
+			<div class="text-center mt-4"><a href="" class="bag-button">Proceed to checkout</a></div>
+		</div>
+				<!-- End of Bag/Cart-->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
